@@ -14,6 +14,7 @@ html {
 body {
 	background: url(img/clouds.gif) repeat-x;
 	padding-top: 45px;
+	/*font-family: verdana ;*/
 }
 header,footer {
 	width: 1000px;
@@ -114,10 +115,50 @@ ul li .navActive {
 	text-indent: 2em;
 	margin-bottom: 30px;
 	font-size: 14px;
+}.right dl {
+	margin-bottom: 10px;
 }
-
-
-
+.right dl dt {
+	background: url(img/title.jpg);
+	height: 32px;
+	line-height: 32px;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 2em;
+}
+.right dl dd {
+	height: 24px;
+	line-height: 24px;
+	background: url(img/dot.gif) no-repeat 7px 10px ;
+	text-indent: 16px;
+}
+.right dl dd a {
+	color: #333;
+	text-decoration: none;
+}
+.right dl dd a:hover {
+	color: #900;
+	text-decoration: underline;
+}
+footer {
+	background: #393838;
+	height: 52px;
+	line-height: 18px;
+	margin-top: 10px;
+	padding-top: 18px;
+	text-align: center;
+	color: #ccc;
+	font-size: 12px;
+	font-family: verdana ;
+}
+footer p a {
+	color: #ccc;
+	text-decoration: none;
+}
+footer p a:hover {
+	text-decoration: underline;
+}
 
 
 
